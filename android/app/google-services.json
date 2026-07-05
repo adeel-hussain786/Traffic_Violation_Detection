@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "312270831796",
+    "project_id": "trafficscan-820fb",
+    "storage_bucket": "trafficscan-820fb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312270831796:android:dd41f240e2a1ea6deb17e1",
+        "android_client_info": {
+          "package_name": "com.trafficguard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA--lTjypOHB2a-wDYQVUyet4KWJ4OEic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
