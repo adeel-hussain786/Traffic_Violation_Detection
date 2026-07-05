@@ -1,99 +1,141 @@
+# 🚦 TrafficGuard – AI-Powered Traffic Violation Detection
+
+<p align="center">
+  <b>A React Native application for intelligent traffic violation detection using Artificial Intelligence and Computer Vision.</b>
+</p>
+
+<p align="center">
+
+![React Native](https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-Computer%20Vision-blueviolet?style=for-the-badge)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge\&logo=flask\&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge\&logo=firebase\&logoColor=black)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge\&logo=googlecloud\&logoColor=white)
+
+</p>
 
 ---
 
-# 🚦 Traffic Violation Detection (TrafficGuard)
+# 📌 Overview
 
-TrafficGuard is a **React Native–based mobile application** designed to support traffic violation detection and monitoring.
-The application serves as a scalable frontend that can integrate with backend services and AI/ML models for intelligent traffic management.
+**TrafficGuard** is an AI-powered mobile application built with **React Native** to detect traffic violations from images and videos. The application integrates a **YOLOv8 object detection model**, **Flask API**, **Firebase**, and **Google Cloud** to provide intelligent and scalable traffic monitoring.
 
----
-
-## 📌 Features
-
-* 📱 Cross-platform mobile application (Android & iOS)
-* ⚡ Built using **React Native CLI**
-* 🧠 Designed for integration with traffic violation detection systems
-* 🧩 Clean and modular project structure
-* 🔒 Ready for backend & API integration
+The project demonstrates how Artificial Intelligence and Mobile Development can work together to assist in identifying traffic violations efficiently.
 
 ---
 
-## 🖼 Screenshots / Demo
+# ✨ Features
 
-### App Design
-<img width="303" height="700" alt="image" src="https://github.com/user-attachments/assets/d4990ffa-a3b1-4e22-b8ac-cebb2a5fca33" /> <img width="303" height="700" alt="image" src="https://github.com/user-attachments/assets/47655222-8178-4c70-afd8-97e82f950670" /> <img width="303" height="700" alt="image" src="https://github.com/user-attachments/assets/3380fdf8-5598-4121-9d98-1a58c0e659cb" />
-
-
----
-
-## 🛠 Tech Stack
-
-* **Framework:** React Native (CLI)
-* **Language:** JavaScript / TypeScript
-* **Package Manager:** npm / yarn
-* **Platforms:** Android & iOS
+* 🚦 AI-based Traffic Violation Detection
+* 🤖 YOLOv8 Object Detection Model
+* 📷 Capture or Upload Images
+* 📹 Video-based Detection Support
+* 📱 Cross-platform Mobile Application (Android & iOS)
+* 🔐 Firebase Authentication
+* ☁️ Flask REST API Integration
+* 🌐 Google Cloud Deployment
+* ⚡ Fast Prediction Results
+* 🎨 Modern and User-Friendly Interface
 
 ---
 
-## 📂 Project Structure (Overview)
+# 📸 Screenshots
 
-```
+<p align="center">
+<img src="https://github.com/user-attachments/assets/d4990ffa-a3b1-4e22-b8ac-cebb2a5fca33" width="220"/>
+<img src="https://github.com/user-attachments/assets/47655222-8178-4c70-afd8-97e82f950670" width="220"/>
+<img src="https://github.com/user-attachments/assets/3380fdf8-5598-4121-9d98-1a58c0e659cb" width="220"/>
+</p>
+
+---
+
+# 🛠️ Tech Stack
+
+| Category          | Technologies                         |
+| ----------------- | ------------------------------------ |
+| 📱 Mobile App     | React Native CLI, JavaScript         |
+| 🤖 AI / ML        | Python, YOLOv8, Computer Vision      |
+| ⚙️ Backend        | Flask REST API                       |
+| 🔥 Authentication | Firebase Authentication              |
+| ☁️ Cloud          | Google Cloud Platform                |
+| 💾 Database       | Firebase                             |
+| 🧰 Tools          | Git, GitHub, Android Studio, VS Code |
+
+---
+
+# 📂 Project Structure
+
+```text
 TrafficGuard/
-│── Screens/          # Application screens
-│── backend/          # Backend / API integration (optional)
-│── android/          # Android native code
-│── ios/              # iOS native code
-│── screenshots/      # App screenshots
-│── App.js            # Root component
-│── index.js          # App entry point
-│── package.json      # Dependencies & scripts
-│── README.md         # Project documentation
+│
+├── android/
+├── ios/
+├── Screens/
+├── backend/
+├── assets/
+├── App.js
+├── index.js
+├── package.json
+└── README.md
 ```
 
 ---
 
-## 🚀 Getting Started
+# 🚀 Getting Started
 
-### ✅ Prerequisites
+## ✅ Prerequisites
 
-Make sure you have completed the **React Native Environment Setup**
-👉 [https://reactnative.dev/docs/environment-setup](https://reactnative.dev/docs/environment-setup)
+Before running the application, ensure that your development environment is configured by following the official React Native setup guide.
 
-⚠️ Follow the steps **up to “Creating a new application”**.
+https://reactnative.dev/docs/environment-setup
 
 ---
 
-## ▶️ Running the Project
+## 📥 Clone Repository
 
-### 1️⃣ Install Dependencies
+```bash
+git clone https://github.com/YOUR_USERNAME/TrafficGuard.git
+```
+
+```bash
+cd TrafficGuard
+```
+
+---
+
+## 📦 Install Dependencies
 
 ```bash
 npm install
-# or
+```
+
+or
+
+```bash
 yarn install
 ```
 
 ---
 
-### 2️⃣ Start Metro Bundler
+## ▶️ Start Metro Bundler
 
 ```bash
 npx react-native start
 ```
 
-Keep this terminal running.
-
 ---
 
-### 3️⃣ Run the Application
-
-#### 📱 Android
+## 📱 Run on Android
 
 ```bash
 npx react-native run-android
 ```
 
-#### 🍎 iOS (macOS only)
+---
+
+## 🍎 Run on iOS
 
 ```bash
 npx react-native run-ios
@@ -101,56 +143,82 @@ npx react-native run-ios
 
 ---
 
-## ✏️ Making Changes
+# 🚦 Application Workflow
 
-1. Open `App.js`
-2. Make changes and save
-
-### Reload the App
-
-* **Android:** Press `R` twice or `Ctrl + M`
-* **iOS:** Press `Cmd ⌘ + R`
+1. User opens the application.
+2. Capture or upload an image/video.
+3. Data is sent to the Flask API.
+4. YOLOv8 detects vehicles and traffic violations.
+5. Prediction results are returned.
+6. The mobile application displays the detected violations.
 
 ---
 
-## 🧪 Testing
+# 🎯 Future Improvements
+
+* 🚗 Number Plate Recognition (ANPR)
+* 🪖 Helmet Detection
+* 👥 Passenger Overloading Detection
+* 🚦 Traffic Signal Violation Detection
+* 📊 Violation History Dashboard
+* 🔔 Real-time Notifications
+* 📍 GPS-Based Incident Tracking
+* 📈 Analytics Dashboard
+
+---
+
+# 🧪 Testing
 
 ```bash
 npm test
-# or
+```
+
+or
+
+```bash
 yarn test
 ```
 
 ---
 
-## ⚠️ Important Notes
+# ⚠️ Notes
 
-* Large files (datasets, videos, ML models) are **excluded** from this repository
-* `.env` files are ignored for security
-* Use **Git LFS** or cloud storage if large assets are required
-
----
-
-## 📘 Learn More
-
-* React Native Docs: [https://reactnative.dev](https://reactnative.dev)
-* Environment Setup: [https://reactnative.dev/docs/environment-setup](https://reactnative.dev/docs/environment-setup)
-* React Native GitHub: [https://github.com/facebook/react-native](https://github.com/facebook/react-native)
+* Large datasets and trained AI models are not included in this repository.
+* Sensitive configuration files (`.env`) are excluded for security.
+* Git LFS or cloud storage is recommended for large model files.
 
 ---
 
-## 🤝 Contribution
+# 🤝 Contributing
 
-Contributions are welcome.
-Fork the repository and submit a pull request.
+Contributions are welcome!
 
----
-
-## 📄 License
-
-This project is intended for **educational and academic use**.
+1. Fork the repository.
+2. Create a feature branch.
+3. Commit your changes.
+4. Open a Pull Request.
 
 ---
 
+# 👨‍💻 Author
 
+**Adeel Hussain**
 
+* 🎓 BS Computer Science
+* 🤖 AI/ML Developer
+* 💻 Full Stack Developer
+* 📱 React Native Developer
+
+**GitHub:** https://github.com/adeel-hussain786
+
+---
+
+# 📄 License
+
+This project is intended for educational and research purposes.
+
+---
+
+# ⭐ Support
+
+If you found this project helpful, consider giving it a **⭐ Star** on GitHub!
